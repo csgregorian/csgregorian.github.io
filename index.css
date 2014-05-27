@@ -1,0 +1,33 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    font-family: 'Open Sans';
+    margin: 64px;
+}
+
+#title {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.sub {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 32px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #55AAFF;
+    border-bottom: 1px solid #55AAFF;
+}
