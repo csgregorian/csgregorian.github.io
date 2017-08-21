@@ -55,7 +55,7 @@
 				<!-- Work -->
 					<article id="experience" class="panel secondary">
 						<div class="image">
-							<img src="images/shopify.jpg" alt="" data-position="center center" />
+							<img src="#" data-src="images/shopify.jpg" alt="" data-position="center center" />
 						</div>
 						<div class="content">
 							<ul class="actions spinX">
@@ -75,7 +75,7 @@
 				<!-- About -->
 					<article id="about" class="panel secondary">
 						<div class="image">
-							<img src="images/me.jpg" alt="" data-position="center center" />
+							<img src="#" data-src="images/me.jpg" alt="" data-position="center center" />
 						</div>
 						<div class="content">
 							<ul class="actions spinX">
@@ -151,6 +151,10 @@
 						'-o-background-size': 'cover',
 						'background-size': 'cover'
 					})
+
+					$('img').each(function(){
+					  $(this).attr('src', $(this).attr('data-src'));
+					});
 				});
 			</script>
 	</body>
