@@ -608,6 +608,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		overflow: overlay;
 	}
 
 		.image img {
